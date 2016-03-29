@@ -1,9 +1,10 @@
 'use strict'
 
 var React = require('react-native');
+var Nearby = require('./Nearby/index');
 
 var {
-    AppRegistry
+    AppRegistry,
     } = React;
 
-AppRegistry.
+AppRegistry.registerComponent('nearby', () => Nearby);
